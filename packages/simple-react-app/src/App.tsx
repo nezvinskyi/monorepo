@@ -3,6 +3,7 @@ import _ from 'lodash';
 import logo from './logo.svg';
 import './App.css';
 import { QueryPayload } from 'simple-shared-data';
+import DarkMode from './react-dark-mode/src/DarkMode';
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
           GET SOME DATA
 				</button>
 				
-      </header>
+			<DarkMode/>
+			</header>
     </div>
   );
 }
