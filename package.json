@@ -1,19 +1,16 @@
 {
-  "name": "monorepo",
+  "name": "monorepo-example",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/nezvinskyi/monorepo.git",
-  "author": "Dmitry Nezvinskyi <nezvinskyi@gmail.com>",
   "license": "MIT",
-	"private": true,
-	"workspaces": [
+  "private": true,
+  "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "start": "lerna run --parallel start"
   },
   "devDependencies": {
-    "lerna": "^4.0.0",
-    "typescript": "^4.5.4"
+    "lerna": "^4.0.0"
   }
 }

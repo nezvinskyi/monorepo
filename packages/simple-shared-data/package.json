@@ -1,0 +1,29 @@
+{
+  "name": "simple-shared-data",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Dmitry Nezvinskyi <nezvinskyi@gmail.com>",
+  "homepage": "https://github.com/nezvinskyi/monorepo#readme",
+  "license": "ISC",
+  "main": "lib/simple-shared-data.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nezvinskyi/monorepo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/nezvinskyi/monorepo/issues"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
