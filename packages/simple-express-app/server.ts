@@ -1,7 +1,7 @@
 import express from 'express';
 // const cors = require('cors');
 import _ from 'lodash';
-import { QueryPayload } from 'simple-shared-data';
+import { QueryPayload } from '@dmitry/simple-shared-data';
 
 const app = express();
 const port = 3001;

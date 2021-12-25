@@ -2,7 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 import logo from './logo.svg';
 import './App.css';
-import { QueryPayload } from 'simple-shared-data';
+import { QueryPayload } from '@dmitry/simple-shared-data';
 import DarkMode from './react-dark-mode/src/DarkMode';
 
 function App() {
